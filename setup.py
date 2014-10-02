@@ -27,10 +27,15 @@ setup(
         'boto',
         'requests',
         'docker-py',
+        'venusian',
     ],
     extras_require=dict(
         tests=tests_require,
     ),
     tests_require=tests_require,
     test_suite='nose.collector',
+    entry_points="""\
+    [console_scripts]
+    hovercraft = hovercraft.scripts.__main__:main
+    """,
 )

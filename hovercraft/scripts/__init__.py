@@ -4,7 +4,7 @@ import venusian
 
 
 def subcommand(wrapped):
-    """This decorator makes a function becomes a subcommand of justitia
+    """This decorator makes a function becomes a subcommand of hovercraft
 
     """
     def callback(scanner, name, ob):

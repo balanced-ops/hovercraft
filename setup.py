@@ -36,6 +36,6 @@ setup(
     test_suite='nose.collector',
     entry_points="""\
     [console_scripts]
-    hovercraft = hovercraft.scripts.__main__:main
+    hc = hovercraft.scripts.__main__:main
     """,
 )
